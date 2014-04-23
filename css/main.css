@@ -150,19 +150,20 @@ a.pure-button-primary {
     margin: auto;
     position: absolute;
     top: 100px; left: 0; bottom: 0; right: 0;
-    text-align: center;
-    text-transform: uppercase;
 }
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
-    font-size: 20px;
-    font-weight: bold;
     color: white;
-    border: 3px solid white;
-    padding: 1em 1.6em;
     font-weight: 100;
-    border-radius: 5px;
+    font-size: 120%;
+    line-height: 1em;
+}
+
+/* Secondary heading */
+.splash-intro {
+    color: white;
+    font-weight: 100;
     line-height: 1em;
 }
 
@@ -258,9 +259,8 @@ a.pure-button-primary {
     }
 
     .splash-head {
-        font-size: 250%;
+        font-size: 140%;
     }
-
 
     /* We remove the border-separator assigned to .l-box-lrg */
     .l-box-lrg {
@@ -277,6 +277,6 @@ a.pure-button-primary {
 @media (min-width: 78em) {
     /* We increase the header font size even more */
     .splash-head {
-        font-size: 300%;
+        font-size: 170%;
     }
 }
